@@ -5,4 +5,6 @@ applications:
   memory: 1G
   buildpack: java_buildpack
   timeout: 120
+  services:
+   - config-server-service
      
