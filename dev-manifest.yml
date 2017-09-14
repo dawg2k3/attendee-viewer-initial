@@ -1,0 +1,8 @@
+---
+applications:
+- name: attendee-viewer
+  instances: 1
+  memory: 1G
+  buildpack: java_buildpack
+  timeout: 120
+     
