@@ -5,6 +5,10 @@ applications:
   memory: 1G
   buildpack: java_buildpack
   timeout: 120
+  env:
+    CF_STAGING_TIMEOUT: 25
+    CLIENT_ID: 3feba3af22c96c649ba5
+    CLIENT_SECRET: ba73ad87ec4393b21183daaace707ec2eb531251
   services:
    - config-server-service
      
